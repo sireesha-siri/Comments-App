@@ -37,6 +37,11 @@
   align-items: center;
 }
 
+@media screen and (max-width:568px){
+  .sub-container{
+    flex-direction:column;
+  }
+
 .comments-container {
   padding: 30px;
   font-family: 'ROboto';
